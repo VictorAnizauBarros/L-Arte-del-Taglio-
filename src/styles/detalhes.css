@@ -1,0 +1,95 @@
+
+.container{
+    height: 100vh;
+    padding: 28px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descricao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 35%;
+    text-align: justify;
+   
+}
+
+.descricao h1{
+    text-align: center;
+}
+
+.imagem{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+@media screen and (max-width:1170px){
+    .container{
+        flex-direction: column;
+    }
+    .descricao{
+        width: 100%;
+       
+    }
+    .imagem img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .descricao h1{
+        font-size:25px;
+}
+.descricao p{
+    font-size: 13px;
+}
+}
+
+.inptCheckBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.infpreco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+}
+
+.desc{
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#voltar{
+    padding: 28px 8%;
+}
+
+#voltar a{
+    text-decoration: none;
+    color:#ffff
+}
+
+@media screen and (max-width:330px){
+    .descricao h3,
+    .descricao .ingredientes,
+    .descricao .origem{
+        display: none;
+    }        
+    }

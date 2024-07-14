@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="shortcut icon" href="src/imagens/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cardápio|L'ARTE del TAGLIO </title>
+</head>
+<body>
+    <header>
+
+        <nav id="navbar">
+            <div id="logo">
+                <a href="home.html"><img src="src/imagens/logo-faca-cinza-red2-1.png" alt="" id="logoimg"></a>
+                <p id="texto-logo">L'ARTE del TAGLIO</p>
+            </div>
+           
+            <ul id="nav_lista">
+                 <li class="nav-item ">
+                    <a href="home.html">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="home.html#avaliacao">Avaliação</a>
+                </li>
+            </ul>
+
+            <button class="botao-padrao" id="carrinho">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="contador-carrinho">0
+            </button>
+
+        </nav>
+    </header>
+    
+
+        
+                <div id="box-de-pesquisa">
+                    <div class="box">
+                        <input type="text" id="pesquisa" placeholder="Qual prato você deseja?" />
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+      
+        
+        <div id="produtos-container"></div>
+        <div id="mensagem-nenhum-produto" style="display:none;">Nenhum produto encontrado</div>
+
+
+    <footer>
+        <img src="src/imagens/onda/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy; 2024 L'ARTE del TAGLIO
+            </span>
+            <div class="botoes-rede-social">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>  
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="cardapio.js"></script>
+</body>
+</html>

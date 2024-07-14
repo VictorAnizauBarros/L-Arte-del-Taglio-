@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="shortcut icon" href="src/imagens/favicon/favicon.ico" type="image/x-icon">
+    <title>L'ARTE del TAGLIO</title>
+</head>
+<body>
+    <header>
+
+        <nav id="navbar">
+            <div id="logo">
+                <img src="src/imagens/logo-faca-cinza-red2-1.png" alt="" id="logoimg">
+                <p id="texto-logo">L'ARTE del TAGLIO</p>
+            </div>
+           
+            <ul id="nav_lista">
+                 <li class="nav-item ">
+                    <a href="#home">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="cardapio.html">Cardápio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="home.html#avaliacao">Avaliação</a>
+                </li>
+            </ul>
+            <!--<button class="botao-padrao" id="carrinho">
+                <i class="fa-solid fa-cart-shopping"></i>-->
+                <button class="botao-padrao" id="carrinho">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="contador-carrinho">0
+                </button>
+            
+        </nav>
+    </header> 
+    
+    <main id="conteudo">
+        <section class="home">
+            <div class="forma"></div>
+            <div class="cta">
+                <h1 class="titulo">
+                    A essência da cozinha 
+                    <span> italiana</span>
+                </h1>
+                
+
+                <p class="descricao-restaurante">
+                    Um autêntico <i><strong>ristorante italiano</strong></i>, o sabor e a essência de uma das gastronomias mais renomadas do mundo, agora em território nacional. 
+                </p>
+
+                <div id="botoes_cta">
+                    <a href="cardapio.html" class="botao-padrao"> Ver cardápio</a>
+                    <a href="tel: +55 19 3232-0032" id="botao_telefone">
+                        <button class="botao-padrao">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        <span>(19) 3232-0032</span>
+                    </a>
+                </div>
+
+                
+            </div>
+
+            <div class="banner">
+                <img src="src/imagens/pratos/prato.png" alt="">
+            </div>
+        </section>
+
+
+
+        <section id="menu">
+            <h2 class="titulo-da-sessao">Cardápio</h2>
+            <h3 class="subtitulo-da-sessao">Os "carros-chefe" da casa</h3>
+
+            <div id="pratos">
+                <div class="prato">
+                    <div class="coracao">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/imagens/dishes-png/230/fettuccine-alfredo-230.png" class="dish-image"alt="">
+                    <h3 class="titulo-do-prato">Fettuccine Alfredo</h3>
+                    <span class="descricao-do-prato">Fettuccine Alfredo é preparado com fettuccine fresco em um molho cremoso de creme de leite, manteiga e parmesão envelhecido. Complementado por noz-moscada e pimenta-do-reino moída na hora, oferece um sabor sofisticado e cremosidade única. Uma experiência gastronômica que encanta paladares exigentes e promete momentos memoráveis.
+                    </span>
+                    <div class="nota-do-prato">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <!--
+                    <div class="preco-do-prato">
+                        <h4>R$ 80,00</h4>
+                        <button class="botao-padrao">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                    -->
+                </div>
+
+                <div class="prato">
+                    <div class="coracao">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/imagens/dishes-png/230/bolognese-1-230.png" class="dish-image"alt="">
+                    <h3 class="titulo-do-prato">Pasta alla Bolognese</h3>
+                    <span class="descricao-do-prato">Nosso macarrão à bolonhesa é uma experiência gastronômica que combina massa artesanal al dente com um suculento ragu de carne bovina selecionada, tomates frescos, cebolas caramelizadas e um toque de vinho tinto. Finalizado com lascas de parmesão envelhecido e ervas aromáticas, é uma celebração de sabores autênticos e sofisticados.
+                    </span>
+                    <div class="nota-do-prato">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <!--
+                    <div class="preco-do-prato">
+                        <h4>R$ 100,00</h4>
+                        <button class="botao-padrao">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                    -->
+                </div>
+
+                <div class="prato">
+                    <div class="coracao">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/imagens/dishes-png/230/pasta-carbonara-230.png" class="dish-image"alt="">
+                    <h3 class="titulo-do-prato">Pasta alla Carbonara</h3>
+                    <span class="descricao-do-prato">Nosso Spaghetti alla Carbonara é um deleite da cozinha romana. Feito com espaguete al dente, envolto em creme sedoso de gemas de ovos frescos e queijo pecorino romano. Pancetta crocante e pimenta-do-reino moída na hora completam a harmonia de sabores ricos. Uma experiência culinária refinada e inesquecível, ideal para os apreciadores da gastronomia italiana.
+                    </span>
+                    <div class="nota-do-prato">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <!--
+                    <div class="preco-do-prato">
+                        <h4>R$ 120,00</h4>
+                        <button class="botao-padrao">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                    -->
+                </div>
+
+                <div class="prato">
+                    <div class="coracao">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/imagens/dishes-png/230/old-school-tiramisu-230.png" class="dish-image"alt="">
+                    <h3 class="titulo-do-prato">Tiramisù</h3>
+                    <span class="descricao-do-prato">Nosso Tiramisù é uma sobremesa italiana clássica, elaborada com camadas delicadas de biscoitos savoiardi embebidos em café expresso, intercalados com um creme suave de mascarpone e ovos frescos. Finalizado com uma generosa pitada de cacau em pó e raspas de chocolate amargo, oferece uma combinação perfeita de sabores e texturas, proporcionando uma sublime refeição.
+                    </span>
+                    <div class="nota-do-prato">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <!--
+                    <div class="preco-do-prato">
+                        <h4>R$ 50,00</h4>
+                        <button class="botao-padrao">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </section>
+
+        <section id="avaliacao">
+            <img src="src/imagens/chef/chef.png" id="avaliacao_chef" alt="">
+
+            <div id="avaliacao_conteudo">
+                <h2 class="titulo-da-sessao">
+                    Avaliações
+                </h2>
+                <h3 class="subtitulo-da-sessao">
+                    O que nossos clientes dizem
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/imagens/pessoas/mulher.jpg" class="feedback-avatar">
+                        <div class="feedback-content">
+                            <p><i><strong>Rafaela D'Angeli</strong></i>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Minha experiência no restaurante foi simplesmente perfeita! Desde o atendimento caloroso até a comida divina, tudo superou minhas expectativas. O fettuccine estava impecável e o tiramisù foi o melhor que já provei. Ambiente acolhedor e uma excelente carta de vinhos completaram a noite. Recomendo a todos!"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/imagens/pessoas/homem.jpg" class="feedback-avatar" alt="">
+                        <div class="feedback-content">
+                            <p><i><strong>Alessandro Rossi</strong> </i>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                " Experiência incrível! A comida é deliciosa e autêntica, o Spaghetti alla Carbonara, a cada garfada era como me transportar para Roma por alguns segundos. O atendimento foi atencioso e o ambiente é muito aconchegante. Uma verdadeira joia para quem ama culinária italiana. Recomendo de olhos fechados!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="src/imagens/onda/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy; 2024 L'ARTE del TAGLIO
+            </span>
+            <div class="botoes-rede-social">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>

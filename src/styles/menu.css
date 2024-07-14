@@ -1,0 +1,80 @@
+#menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#pratos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.prato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap:18px;
+    width: 25%;
+    padding: 20px;
+   background-color: #ffffff;
+   box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+   position:relative;
+   overflow: hidden;
+}
+
+.coracao{
+    position:absolute;
+    background-color: #335233;
+    color: #fff9ea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.563rem;
+    width: 70px;
+    height: 70px;
+    right: -10px;
+    top:-10px;
+    border-radius: 20px;
+}
+
+.descricao-do-prato{
+    color: #434343;
+    text-align: justify;
+}
+
+.nota-do-prato i{
+    color: #FFD700;
+}
+
+.preco-do-prato{
+    display: flex;
+    align-items: center;
+    gap:20px
+}
+
+@media screen and (max-width: 1400px){
+    #pratos{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .prato{
+        width: calc(50% - 12px);
+    }
+
+}
+
+@media screen and (max-width: 840px){
+    .prato{
+        width:100%;
+    }
+   #menu .subtitulo-da-sessao{
+    text-align: center;
+   } 
+}

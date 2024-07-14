@@ -1,0 +1,111 @@
+.home{
+    display: flex;
+    min-height: calc(100vh-232px);
+    position:relative;
+}
+
+.cta{
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 6%;
+}
+
+.cta .titulo{
+    font-size: 4rem;
+    color: #1d1d1d;
+}
+
+.cta .titulo span{
+    color:  #FF6347;
+}
+
+.cta .descricao-restaurante{
+    font-size:1.2rem;
+}
+
+#botoes_cta{
+        display: flex;
+        gap: 24px;
+}
+
+#botoes_cta  a {
+    text-decoration: none;
+    
+  
+}
+#botoes_cta a span{
+    color: #1d1d1d;
+    font-weight: 700;
+}
+#botao_telefone{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: #ffff;
+    padding: 8px 14px;
+    font-weight: 500;
+    box-shadow: 0px 0px 12px 4px #0000001a;
+    border-radius: 12px;
+}
+
+#botao_telefone button{
+    box-shadow: none;
+}
+
+.banner{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 70%;
+    z-index: 2;
+}
+
+.banner img{
+    height:  100%;
+    width: fit-content;
+}
+
+.forma{
+    background-color: #ffffff48;
+    width: 50%;
+    height: 100%;
+    position:absolute;
+    border-radius:30% 30% 0% 10% ;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1170px){
+    .home{
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    .cta{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner,
+    .banner img,
+    .home .forma{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 
+450px){
+    #botao_telefone button{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .home .forma{
+        display: none;
+    }
+}
